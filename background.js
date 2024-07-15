@@ -19,7 +19,6 @@ browser.menus.onClicked.addListener((info, tab) => {
   switch (info.menuItemId) {
     case "link-to-clipboard":
       const readerLink = `about:reader?url=${info.linkUrl}`;
-      console.log(info);
       navigator.clipboard.writeText(readerLink);
   }
 });
