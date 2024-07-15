@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Copy Reader View link",
+  "version": "0.0.1",
+  "description": "Add Reader View link to clipboard",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["menus"]
+}
